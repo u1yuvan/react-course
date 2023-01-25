@@ -1,5 +1,5 @@
 import React from 'react';
-import  ReactDOM  from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
 import App from './app';
 
 // const header = <h1>This is my first React App</h1>;
@@ -10,3 +10,6 @@ import App from './app';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App/>)
+
+// let div = document.getElementById('root');
+// div.append(App());
