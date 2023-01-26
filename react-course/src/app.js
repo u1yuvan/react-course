@@ -1,11 +1,9 @@
 import './app.css' 
+import Products from './components/products';
 
 function App() {
     let msg = 'awesome'
-    return (<div>
-        <h1 className="header">This is my header</h1>
-        <p className="paragraph">This is my first {msg} Component</p>
-    </div>);
+    return <Products></Products>;
 }
 
 export default App;
